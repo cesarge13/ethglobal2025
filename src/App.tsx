@@ -12,6 +12,7 @@ import { Activity } from './components/Activity';
 import { Settings } from './components/Settings';
 import { ThemeProvider } from './components/ThemeProvider';
 import { FarmerDashboard } from './components/agricultural/FarmerDashboard';
+import { EVVMMate } from './components/EVVMMate';
 import { useAccount } from 'wagmi';
 
 type Screen = 
@@ -24,6 +25,7 @@ type Screen =
   | 'agroscore'
   | 'payments' 
   | 'activity' 
+  | 'evvm-mate'
   | 'settings';
 
 export default function App() {
@@ -56,6 +58,8 @@ export default function App() {
         return <Payments onNavigate={setCurrentScreen} />;
       case 'activity':
         return <Activity onNavigate={setCurrentScreen} />;
+      case 'evvm-mate':
+        return <EVVMMate onNavigate={setCurrentScreen} />;
       case 'settings':
         return <Settings />;
       default:

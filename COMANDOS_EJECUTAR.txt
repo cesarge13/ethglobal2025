@@ -1,0 +1,15 @@
+# 🚀 4 COMANDOS PARA EJECUTAR TODO
+
+Estás en: /Users/cesargarcia/Desktop/origenmx
+
+## Terminal 1: Backend OrigenMX
+cd backend && npm run dev
+
+## Terminal 2: Frontend OrigenMX
+npm run dev
+
+## Terminal 3: Backend EVVM
+cd evvm-mate-fisher/backend && npm run dev
+
+## Terminal 4: Frontend EVVM
+cd evvm-mate-fisher/frontend && npm run dev

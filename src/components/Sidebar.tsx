@@ -6,7 +6,8 @@ import {
   Wallet, 
   Activity, 
   Settings,
-  Shield
+  Shield,
+  FileText
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -23,6 +24,7 @@ export function Sidebar({ currentScreen, onNavigate }: SidebarProps) {
     { id: 'agroscore', label: 'AgroScore', icon: LineChart },
     { id: 'payments', label: 'Payments', icon: Wallet },
     { id: 'activity', label: 'Activity', icon: Activity },
+    { id: 'evvm-mate', label: 'EVVM MATE', icon: FileText },
     { id: 'settings', label: 'Settings', icon: Settings },
   ];
 

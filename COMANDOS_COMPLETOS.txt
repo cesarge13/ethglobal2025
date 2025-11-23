@@ -1,0 +1,31 @@
+# 🚀 COMANDOS COMPLETOS - PRIMERO INSTALAR, LUEGO EJECUTAR
+
+## ⚠️ IMPORTANTE: Primero instala las dependencias
+
+### Terminal 1: Backend OrigenMX
+cd backend && npm install && npm run dev
+
+### Terminal 2: Frontend OrigenMX
+npm install && npm run dev
+
+### Terminal 3: Backend EVVM (INSTALAR PRIMERO)
+cd evvm-mate-fisher/backend && npm install && npm run dev
+
+### Terminal 4: Frontend EVVM (INSTALAR PRIMERO)
+cd evvm-mate-fisher/frontend && npm install && npm run dev
+
+---
+
+## ✅ Si ya instalaste antes, solo ejecuta:
+
+### Terminal 1: Backend OrigenMX
+cd backend && npm run dev
+
+### Terminal 2: Frontend OrigenMX
+npm run dev
+
+### Terminal 3: Backend EVVM
+cd evvm-mate-fisher/backend && npm run dev
+
+### Terminal 4: Frontend EVVM
+cd evvm-mate-fisher/frontend && npm run dev

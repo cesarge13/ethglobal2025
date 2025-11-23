@@ -1,0 +1,34 @@
+# 🎯 GUÍA RÁPIDA: CÓMO USAR EVVM MATE FISHER
+
+## ✅ Estado Actual
+- Backend EVVM: ✅ Corriendo en puerto 3002
+- Frontend EVVM: ⏳ Instalando (Terminal 4)
+
+## 🚀 PASOS PARA USAR:
+
+### 1. Espera a que Terminal 4 termine
+   Deberías ver: "ready started server on 0.0.0.0:3003"
+
+### 2. Abre en tu navegador:
+   http://localhost:3003
+
+### 3. Verás un formulario con:
+   ✅ Input "Lot ID" (escribe ej: "LOT-001")
+   ✅ Select "Tipo de Evento" (HARVEST, SHIPPED, STORAGE)
+   ✅ Botón "Registrar Evento"
+
+### 4. Completa y envía:
+   - Escribe un Lot ID
+   - Selecciona un tipo de evento
+   - Haz clic en "Registrar Evento"
+
+### 5. Espera la confirmación:
+   - Verás "⏳ Registrando..." 
+   - Espera 10-30 segundos
+   - Verás el resultado con el transaction hash
+
+### 6. Haz clic en el hash para verlo en PolygonScan
+
+## ✅ NO necesitas agregar nada - ya está todo listo!
+
+El formulario ya tiene todos los botones y campos necesarios.
