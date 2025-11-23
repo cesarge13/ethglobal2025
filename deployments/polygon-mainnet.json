@@ -1,0 +1,8 @@
+{
+  "network": "polygon-mainnet",
+  "chainId": 137,
+  "contractAddress": "0x1D645cd86Ad6920132f5fa1081C20A677B854F3D",
+  "deployer": "0x3A56cD71f82aAb21C93f9463e331a40Df89BCa3F",
+  "timestamp": "2025-11-22T19:51:19.369Z",
+  "transactionHash": "0x0042ed6ddad5b796874de0a26724f81e68a2a23771689314d46f4addaf181167"
+}

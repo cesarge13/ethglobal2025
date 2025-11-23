@@ -1,0 +1,25 @@
+{
+  "name": "agricultural-validation-agent",
+  "version": "1.0.0",
+  "description": "Agente IA para validación agrícola con ejecución de micropagos x402",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "agent": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.0",
+    "openai": "^4.20.0",
+    "pdf-parse": "^1.1.1",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/pdf-parse": "^1.1.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
